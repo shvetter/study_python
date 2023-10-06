@@ -1,0 +1,12 @@
+{
+  "folders":
+  [{
+    "path": "."
+  }],
+  "build_systems":
+  [{
+    "name": "Run with args",
+    "env": {"PYTHONIOENCODING": "utf8"},
+    "cmd": ["python", "$file", "args1", "args2"]
+  }]
+}
